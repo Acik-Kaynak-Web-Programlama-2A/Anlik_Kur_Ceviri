@@ -40,7 +40,7 @@ def hesapla_guncelle():
         else:
             cevirilecek_kur_orani = 0
 
-        sonuc = (miktar / girilen_kur_orani) * cevirilecek_kur_orani
+        sonuc = (miktar * girilen_kur_orani) / cevirilecek_kur_orani
 
         lbl_sonuc.config(text=f"Sonuç: {miktar} {girilen_kur} = {sonuc:.2f} {cevirilecek_kur}")
     except ValueError:
