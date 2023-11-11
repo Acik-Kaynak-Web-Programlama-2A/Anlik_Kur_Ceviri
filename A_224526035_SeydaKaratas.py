@@ -57,7 +57,7 @@ anaform = Tk()
 anaform.title("Kur Hesapla")
 anaform.geometry("300x300")
 
-lbl_miktar = Label(anaform,
+lbl_miktar = ttk.Label(anaform,
                    text="Miktar:")
 lbl_donusecekkur = ttk.Label(anaform,
                            text="Dönüştürülecek Kur:")
