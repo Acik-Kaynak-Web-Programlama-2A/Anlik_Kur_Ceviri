@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Nov 10 20:15:07 2023
+Created on Fri Nov 10 20:15:07 2023
 
 @author: Tunahan
 """
